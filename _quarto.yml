@@ -18,7 +18,7 @@ website:
     right:
       - text: "Home"
         file: index.qmd
-      - text: "So. FREMONT CAR WASH"
+      - text: "So. FREMONT CAR WASH."
         file: carwash1.qmd
       - text: "Laundromat"
         file: laundromat.qmd

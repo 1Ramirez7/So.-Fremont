@@ -10,9 +10,6 @@ format:
 
 # Please select a service:
 
-
-
-
 <div class="flex-container">
 
 <div class="flex-item">
