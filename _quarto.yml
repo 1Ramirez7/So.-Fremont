@@ -20,16 +20,9 @@ website:
         file: index.qmd
       - text: "So. FREMONT CAR WASH"
         file: carwash1.qmd
-      - text: "CAR WASH # 2"
-        file: carwash2.qmd
       - text: "Laundromat"
         file: laundromat.qmd
-      - text: "Car Wash # 3"
-        file: carwash3.qmd
-      - text: "Laundromat 2"
-        file: laundromat2.qmd
-      - text: "Laundromat 3"
-        file: laundromat3.qmd
+
       
 format:  
   html:
