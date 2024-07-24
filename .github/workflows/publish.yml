@@ -29,20 +29,7 @@ jobs:
       - run: pip install jupyter numpy pandas scikit-learn plotly.express seaborn matplotlib # altair altair_viewer # nbformat nbclient pyyaml
       #- run: pip install -r requirements.txt
 
-      # Comment out the 2 below section if you are not using R
-      - name: Install R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          #r-version: '4.3.2'
-          use-public-rspm: true
-
-      - name: Install R Dependencies
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: 
-            any::tidyverse
-            any::knitr
-            any::DT
+      # A section here included code if I was using R, but im not so i remove it because it took a bit to load. 
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
