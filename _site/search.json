@@ -1,17 +1,255 @@
 [
   {
-    "objectID": "laundromat3.html#contact-information",
-    "href": "laundromat3.html#contact-information",
-    "title": "Welcome to Our Laundromat",
-    "section": "Contact Information",
-    "text": "Contact Information\nEmail: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
+    "objectID": "Templates/DS350_Template.html",
+    "href": "Templates/DS350_Template.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "testing\n\n\n\n Back to top"
   },
   {
-    "objectID": "laundromat3.html#send-a-review",
-    "href": "laundromat3.html#send-a-review",
-    "title": "Welcome to Our Laundromat",
-    "section": "Send a Review",
-    "text": "Send a Review\nWe welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\nName:  Email or Phone Number:  Message:"
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
+    "crumbs": [
+      "Bloomberg Templates",
+      "DS250 Projects"
+    ]
+  },
+  {
+    "objectID": "projects.html#repo-for-all-my-projects",
+    "href": "projects.html#repo-for-all-my-projects",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 1\nProject 2\nProject 3\nProject 4\nProject 5",
+    "crumbs": [
+      "Bloomberg Templates",
+      "DS250 Projects"
+    ]
+  },
+  {
+    "objectID": "Projects/project4.html",
+    "href": "Projects/project4.html",
+    "title": "Client Report - Sample only",
+    "section": "",
+    "text": "Sample project coming soon\ntest test\n\n\n\n Back to top",
+    "crumbs": [
+      "Bloomberg Templates",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "Projects/project2.html",
+    "href": "Projects/project2.html",
+    "title": "Client Report - Sample Name",
+    "section": "",
+    "text": "Sample project coming soon\n\n\n\n Back to top",
+    "crumbs": [
+      "Bloomberg Templates",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "full_stack.html",
+    "href": "full_stack.html",
+    "title": "about me",
+    "section": "",
+    "text": "Eduardo I Ramirez\nI’m obtaining a Bachelor of Science in Financial Economics with a minor in Data Science at Brigham Young University-Idaho. The goal of this portfolio is to display a few projects I have made that show my work and capabilities.\nFor any inquiries: Eduardo.ER.Ramirez@gmail.com\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "competition.html",
+    "href": "competition.html",
+    "title": "\nSimple Calculator\n",
+    "section": "",
+    "text": "&lt;!DOCTYPE html&gt;\n\n\n\n\n\nCalculator\n\n\n\n\n\nSimple Calculator\n\n\n    &lt;label for=\"num1\"&gt;Enter first number:&lt;/label&gt;\n    &lt;input type=\"number\" id=\"num1\"&gt;\n&lt;/div&gt;\n&lt;div&gt;\n    &lt;label for=\"num2\"&gt;Enter second number:&lt;/label&gt;\n    &lt;input type=\"number\" id=\"num2\"&gt;\n&lt;/div&gt;\n&lt;button onclick=\"calculate()\"&gt;Calculate&lt;/button&gt;\n&lt;div id=\"result\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\n    function calculate() {\n        // Get the input values\n        var num1 = parseFloat(document.getElementById('num1').value);\n        var num2 = parseFloat(document.getElementById('num2').value);\n\n        // Perform calculations\n        var sum = num1 + num2;\n        var difference = num1 - num2;\n        var product = num1 * num2;\n        var quotient = num1 / num2;\n\n        // Display the results\n        var resultDiv = document.getElementById('result');\n        resultDiv.innerHTML = '&lt;p&gt;Sum: ' + sum + '&lt;/p&gt;' +\n                              '&lt;p&gt;Difference: ' + difference + '&lt;/p&gt;' +\n                              '&lt;p&gt;Product: ' + product + '&lt;/p&gt;' +\n                              '&lt;p&gt;Quotient: ' + quotient + '&lt;/p&gt;';\n    }\n&lt;/script&gt;\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "exploration.html",
+    "href": "exploration.html",
+    "title": "About me",
+    "section": "",
+    "text": "This is my first portfolio that I made. This portfolio was made from a template provided by my Data Science 250 course. The main object of this portfolio is to introduce me to github, and start my project build up. This project is first starting with my Data Science 250 projects, and my resume. This is my first semester (Jan to Apr 2024) working with HTML and github and my second semester working with Python. I’m fairly new to coding and or computer science, but computer science was my career choice up until 9th grade so I’m able to understand many of the coding languages fairly quickly.\n\n\nI made a few models and projects for my Intermediate Macroeconomics course, and hopefully I can uopload them to this portfolio by the end of the semester. I also made one CFA institute research for a US firm and hope to upload it here as well."
+  },
+  {
+    "objectID": "exploration.html#future-works-coming..",
+    "href": "exploration.html#future-works-coming..",
+    "title": "About me",
+    "section": "",
+    "text": "I made a few models and projects for my Intermediate Macroeconomics course, and hopefully I can uopload them to this portfolio by the end of the semester. I also made one CFA institute research for a US firm and hope to upload it here as well."
+  },
+  {
+    "objectID": "Projects/project1.html",
+    "href": "Projects/project1.html",
+    "title": "Looking up Financial and Ratios",
+    "section": "",
+    "text": "Looking up an Equity - Amazon - AMZN\nYou can search by typing in the blue box field by either typing the name of the company or the stock name.\nHere is a sample using the company name\n\nHere is a sample using the company stock name\n\nNote: Sometimes searching by stock name can be faster and clear any confusion due to companies having similar or same names.\nIn most BYUI courses, you will always pick ‘US equity’ when looking up a company so all the other options can be ignored for now. Once you understand Bloomberg, then the other options will come in handy.\nSo we select ‘AMZN US Equity’ in this case.\nSecurity Description\nThe next image is a pop-up screen that appears after selecting AMZN US Equity. It will have many options, and many of the Bloomberg functions you will be using in the society and throughout the courses that require the use of Bloomberg will be in this pop-up menu.\n\nUnder Company Overview, we select ‘DES Security Description’ to view the about of a company and other key details. The image below shows what the DES Security Description should look like in your Bloomberg terminal.\nIn this screen, you can find many useful pieces of information about a company, including the tab for ratios.\nNote: once you search an equity or index in the Bloomberg terminal, it will be loaded automatically for any functions you search. Notice when you open a new tab, in the top left you can see “AMAZON.COM INC equity” so any related function you search in Bloomberg will be loaded using the currently loaded equity or index.\n\n\n\nFinacial Analysis of AMZN\nTo view the FA for AMZN, just search ‘FA’ in the blue box. You can do it on the DES page or just open a new tab.\nIf I could recommend any of you to familiarize yourself with any Bloomberg function, this would be one of the main ones and will make your life easier, even for non-financial econ and/or econ courses.\n\nOverview.\n\nIncome Statement\nBalance Sheet\nCash Flow\nRatios\nand my favorite ‘Custom’\n\n\nThis is like the best place to find ratios and specific information about a company.\n\nCreate Custom\nSave it after a few fields have been entered even if you are not done, because leaving that page will delete any unsaved progress.\n\n\nWAY TO MANY OPTIONS IN BLOOMBERG\n\nWhen doing course assignments, explain how you attain the ratios or fields due to ratios having different values.\n\n\nRight click on a field and select ‘definition’.\n\nMost of the time, the definition of a field will let you know if you are looking at the correct field for your research project.\n\nAdd as many fields as needed.\n\nRight next to the ‘’ option, you have the save option.\n\nPick a name for your template and save it.\nPick names that can be easily indentified even semesters later.\nDelete any one time use templates.\n\n\nTo edit a saved template, simply enter a field normally and remember to save.\n\n\nThroughout your courses, you will always be doing repetitive tasks in Excel. So, it will be useful to create an Excel template where you can simply copy and paste from a Bloomberg export Excel file into your model. As you improve your research skills, having an Excel model that automatically performs calculations and predictions on given data will make your student life a lot easier.\n\nMany of the definitions on the Bloomberg Terminal will provide you with the calculations for the function you are using.\n\n\n\npsacer\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Bloomberg Templates",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Projects/project3.html",
+    "href": "Projects/project3.html",
+    "title": "Client Report - Sample Name",
+    "section": "",
+    "text": "Sample project coming soon\n\n\n\n Back to top",
+    "crumbs": [
+      "Bloomberg Templates",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Projects/project5.html",
+    "href": "Projects/project5.html",
+    "title": "Client Report - Sample Name",
+    "section": "",
+    "text": "Sample project coming soon\n\n\n\n Back to top",
+    "crumbs": [
+      "Bloomberg Templates",
+      "Project 5"
+    ]
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "Welcome to Our Car Wash\n\n\n\nAbout Us\nWelcome to our car wash, where we offer top-notch services to keep your vehicles spotless. We have 3 self-serve bays, including a large truck bay perfect for washing RVs, trucks, trailers, and more. Our state-of-the-art automatic “Touchless” car wash uses superior chemicals for presoak, soap, wax, sealants, and a spot-free rinse. Enjoy our powerful arched vacuums with a 180-degree swivel, making it easy to vacuum any car or truck. Situated on 1 acre of land, we provide ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles.\n\n\n\nTouchless Car Wash\n\n\n\nAutomatic Bays\n\n\n\n\nVacuums\n\n\n\nContact\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "resume.html#profile",
+    "href": "resume.html#profile",
+    "title": "Eduardo I. Ramirez’s CV",
+    "section": "Profile",
+    "text": "Profile\nAs a dedicated student at Brigham Young University-Idaho, I am pursuing a Bachelor of Science in Financial Economics, with minors in Data Science and Financial Planning. Specialized in Business Analytics and Operations Management, I am passionate about using data-driven strategies to drive business growth and efficiency."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Eduardo I. Ramirez’s CV",
+    "section": "Education",
+    "text": "Education\nExpected Graduation: July 2025\nBachelor of Science in Financial Economics, Brigham Young University-Idaho, Rexburg, ID\n- Minor in Data Science and Financial Planning - Focus: Business Analytics, Business Ownership, Operations Management"
+  },
+  {
+    "objectID": "resume.html#professional-experience",
+    "href": "resume.html#professional-experience",
+    "title": "Eduardo I. Ramirez’s CV",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nStore Manager\nPetro Consulting Services LLC, Chula Vista, CA\nJan 2015 - Feb 2017 - Managed staffing, scheduling, HR needs, and sales analysis. - Developed leadership skills, problem-solving under pressure.\n\n\nFleet and IT Manager\nPetro Consulting Services LLC, Chula Vista, CA\nFeb 2016 - Feb 2017 - Implemented proprietary Fleet card system. - Managed technology integration, increased sales and profitability.\n\n\nAnalytic Research\nE&J Investments LLC, St Anthony, ID\nMarch 2023 - Present - Analyzed sales, expenses, and profitability of Laundromat equipment. - Proposed new investment opportunities and strategies."
+  },
+  {
+    "objectID": "resume.html#volunteer-experience",
+    "href": "resume.html#volunteer-experience",
+    "title": "Eduardo I. Ramirez’s CV",
+    "section": "Volunteer Experience",
+    "text": "Volunteer Experience\n\nFull-time Missionary\nThe Church of Jesus Christ of Latter-Day Saints, Cape Verde, Africa\nDec 2017 - Jan 2020 - Taught local communities about religious beliefs.\n\n\nVolunteer at Homeless Shelter\nSan Diego, California\nJan 2020 - Aug 2020 - Organized dinners and essential kits for homeless youth.\n\n\nFinancial Economics Society Secretary\nBrigham Young University-Idaho\nSep 2022 - Mar 2023 - Administrative support, data entry, and organizational management."
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Eduardo I. Ramirez’s CV",
+    "section": "Skills",
+    "text": "Skills\n\nLanguages: Fluent in Spanish, English, and Portuguese.\nTechnical Skills: Excel, R, Stata, SQL, HTML, Python.\nKey Competencies: Management, Leadership, Analytical and Strategic Thinking.\nSpecializations: Financial Management, Data Presentation."
+  },
+  {
+    "objectID": "resume.html#certifications",
+    "href": "resume.html#certifications",
+    "title": "Eduardo I. Ramirez’s CV",
+    "section": "Certifications",
+    "text": "Certifications\n\nBloomberg Market Concepts, Issued December 2022\nSpreadsheet Modeling, Issued September 29, 2022\n\n\nLast updated: March 2024"
+  },
+  {
+    "objectID": "Templates/DS250_Template.html",
+    "href": "Templates/DS250_Template.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "testing\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to So. FREMONT CAR WASH & LAUNDROMAT",
+    "section": "",
+    "text": "Please select a service:\n\n\n  \n\n\n  \n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "carwash1.html",
+    "href": "carwash1.html",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "Welcome to our car wash, where we offer top-notch services to keep your vehicles spotless. We have 3 self-serve bays, including a large truck bay perfect for washing RVs, trucks, trailers, and more. Our state-of-the-art automatic “Touchless” car wash uses superior chemicals for presoak, soap, wax, sealants, and a spot-free rinse.\n\n\n\n\n\n\n\n\n\n\nEnjoy our powerful arched vacuums with a 180-degree swivel, making it easy to vacuum any car or truck. Situated on 1 acre of land, we provide ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles.\n\n\n\n\n\n\n\n\n\n\n\n\nDouble Wash & Wax - $14\nUltimate Wash - $10\n\n\n\n\n- Undercarriage Blaster\n- Undercarriage Blaster\n\n\n- Double Hot Presoak Soaking\n- Double Hot Presoak Soaking\n\n\n- High Pressure Rinse\n- High Pressure Rinse\n\n\n- Triple Foam Conditioner\n- ArmorAll Triple Foam Conditioner\n\n\n- Extreme Shine Wax with Carnauba\n- ArmorAll Clear Coat Protectant\n\n\n- RainX Complete Protectant\n- RainX Complete Protectant\n\n\n- Spot-Free Rinse\n- Spot-Free Rinse\n\n\n- Dryer\n- Dryer\n\n\n\n\n\n\n\n\n\n\nDeluxe Wash - $8\nBasic Wash - $6\n\n\n\n\n- Undercarriage Blaster\n- Double Presoak Soaking\n\n\n- Double Presoak Soaking\n- High Pressure Rinse\n\n\n- High Pressure Rinse\n- Spot-Free Rinse\n\n\n- ArmorAll Clear Coat Protectant\n\n\n\n- Dryer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmail: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445\n\n\n\nWe welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\n\nName:  Email or Phone Number:  Message:"
+  },
+  {
+    "objectID": "index.html#double-wash-wax---14",
+    "href": "index.html#double-wash-wax---14",
+    "title": "So FREMONT CAR WASH",
+    "section": "",
+    "text": "Experience our premium “Touchless” car wash with the Double Wash & Wax package. This includes an Undercarriage Blaster, Double Hot Presoak Soaking, High Pressure Rinse, Triple Foam Conditioner, Enhanced Carnauba Wax, Spot Free Rinse, and High Velocity Dry. Ensure your vehicle receives the ultimate protection and clean with our convenient Basic Wash."
+  },
+  {
+    "objectID": "index.html#ultimate-wash---10",
+    "href": "index.html#ultimate-wash---10",
+    "title": "So FREMONT CAR WASH",
+    "section": "Ultimate Wash - $10",
+    "text": "Ultimate Wash - $10\nTreat your car to our Ultimate Wash package. This includes an Undercarriage Blaster, Double Hot Presoak Soaking, High Pressure Rinse, ArmorAll Triple Foam Conditioner, ArmorAll Clear Coat Protectant, RainX Complete Protectant, Spot-Free Rinse, and Dryer. Enjoy a comprehensive clean that leaves your vehicle protected and shining."
+  },
+  {
+    "objectID": "index.html#deluxe-wash---8",
+    "href": "index.html#deluxe-wash---8",
+    "title": "So FREMONT CAR WASH",
+    "section": "Deluxe Wash - $8",
+    "text": "Deluxe Wash - $8\nGive your car a thorough clean with our Deluxe Wash package. This includes an Undercarriage Blaster, Double Presoak Soaking, High Pressure Rinse, ArmorAll Clear Coat Protectant, and Dryer. Get a great clean and protect your car’s finish at an affordable price."
+  },
+  {
+    "objectID": "index.html#basic-wash---6",
+    "href": "index.html#basic-wash---6",
+    "title": "So FREMONT CAR WASH",
+    "section": "Basic Wash - $6",
+    "text": "Basic Wash - $6\nEnjoy a quick and effective clean with our Basic Wash package. This includes Double Presoak Soaking, High Pressure Rinse, and Spot-Free Rinse. Get your car looking fresh and clean with our convenient Basic Wash."
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "So FREMONT CAR WASH",
+    "section": "",
+    "text": "Email: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
+  },
+  {
+    "objectID": "carwash1.html#contact-information",
+    "href": "carwash1.html#contact-information",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "Email: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
+  },
+  {
+    "objectID": "carwash1.html#send-a-review",
+    "href": "carwash1.html#send-a-review",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\n\nName:  Email or Phone Number:  Message:"
+  },
+  {
+    "objectID": "old files/index1_24.html",
+    "href": "old files/index1_24.html",
+    "title": "So FREMONT CAR WASH",
+    "section": "",
+    "text": "Welcome to our car wash, where we offer top-notch services to keep your vehicles spotless. We have 3 self-serve bays, including a large truck bay perfect for washing RVs, trucks, trailers, and more. Our state-of-the-art automatic “Touchless” car wash uses superior chemicals for presoak, soap, wax, sealants, and a spot-free rinse. Enjoy our powerful arched vacuums with a 180-degree swivel, making it easy to vacuum any car or truck. Situated on 1 acre of land, we provide ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles.\n\n\n\n\n\n\nExperience our premium “Touchless” car wash with the Double Wash & Wax package. This includes an Undercarriage Blaster, Double Hot Presoak Soaking, High Pressure Rinse, Triple Foam Conditioner, Enhanced Carnauba Wax, Spot Free Rinse, and High Velocity Dry. Ensure your vehicle receives the ultimate protection and clean with our convenient Basic Wash.\n\n\n\n\n\n\nWe offer three self-serve bays, including a large truck bay designed for washing RVs, trucks, trailers, and more. Situated on 1 acre of land, our facility provides ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles. Our bays are equipped with the latest features to ensure a thorough and convenient cleaning experience:\n\nPresoak: Apply to the entire vehicle from bottom to top for optimal cleaning.\nSoap: High-quality soap for effective cleaning.\nFoam Brush: For scrubbing painted surfaces gently but effectively.\nGloss Wax: Apply from bottom to top for a shiny finish.\nRinse: Rinse the entire vehicle from top to bottom with high pressure.\nSpot-Free Rinse: A final rinse with spot-free water for a spotless finish.\nAir-Dry: Use the air gun to blow dry the vehicle.\n\nOur self-serve bays accept both quarters and credit cards for your convenience. Simply swipe your card or deposit quarters to start. The timer displays the cycle, and you can press the stop button to end the charges when you are done. Enjoy a thorough and easy washing experience with us.\n\n\n\n\n\nOur facility features four powerful arched vacuums designed for convenience and efficiency. Each vacuum boasts a 180-degree swivel, making it easy to reach and clean every corner of your car or truck. Whether you’re detailing the interior or just need a quick clean-up, our vacuums provide the power and flexibility you need for a spotless finish. Enjoy a hassle-free vacuuming experience with our state-of-the-art equipment.\n\n\n\n\n\n\n\nEmail: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
+  },
+  {
+    "objectID": "old files/index1_24.html#double-wash-wax---14",
+    "href": "old files/index1_24.html#double-wash-wax---14",
+    "title": "So FREMONT CAR WASH",
+    "section": "",
+    "text": "Experience our premium “Touchless” car wash with the Double Wash & Wax package. This includes an Undercarriage Blaster, Double Hot Presoak Soaking, High Pressure Rinse, Triple Foam Conditioner, Enhanced Carnauba Wax, Spot Free Rinse, and High Velocity Dry. Ensure your vehicle receives the ultimate protection and clean with our convenient Basic Wash."
+  },
+  {
+    "objectID": "old files/index1_24.html#contact-information",
+    "href": "old files/index1_24.html#contact-information",
+    "title": "So FREMONT CAR WASH",
+    "section": "",
+    "text": "Email: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
   },
   {
     "objectID": "laundromat.html#contact-information",
@@ -26,48 +264,6 @@
     "title": "Welcome to Our Laundromat",
     "section": "Send a Review",
     "text": "Send a Review\nWe welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\nName:  Email or Phone Number:  Message:"
-  },
-  {
-    "objectID": "carwash3.html",
-    "href": "carwash3.html",
-    "title": "Welcome to Our Car Wash",
-    "section": "",
-    "text": "Touchless Car Wash Packages\nAutomatic Bays\nVacuums\nContact us\n\n\n\nTouchless Car Wash Packages\n\n\nAutomatic Bays\n\n\n\n\nVacuums\n\n\nContact us\n\n\n\n\n\n\n\nWelcome to our car wash, where we offer top-notch services to keep your vehicles spotless. We have 3 self-serve bays, including a large truck bay perfect for washing RVs, trucks, trailers, and more. Our state-of-the-art automatic “Touchless” car wash uses superior chemicals for presoak, soap, wax, sealants, and a spot-free rinse.\n\n\n\n\n\n\n\n\n\n\nEnjoy our powerful arched vacuums with a 180-degree swivel, making it easy to vacuum any car or truck. Situated on 1 acre of land, we provide ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmail: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445\n\n\n\nWe welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us."
-  },
-  {
-    "objectID": "carwash3.html#contact-information",
-    "href": "carwash3.html#contact-information",
-    "title": "Welcome to Our Car Wash",
-    "section": "",
-    "text": "Email: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
-  },
-  {
-    "objectID": "carwash3.html#send-a-review",
-    "href": "carwash3.html#send-a-review",
-    "title": "Welcome to Our Car Wash",
-    "section": "",
-    "text": "We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us."
-  },
-  {
-    "objectID": "carwash1.html",
-    "href": "carwash1.html",
-    "title": "Welcome to Our Car Wash",
-    "section": "",
-    "text": "Welcome to our car wash, where we offer top-notch services to keep your vehicles spotless. We have 3 self-serve bays, including a large truck bay perfect for washing RVs, trucks, trailers, and more. Our state-of-the-art automatic “Touchless” car wash uses superior chemicals for presoak, soap, wax, sealants, and a spot-free rinse.\n\n\n\n\n\n\n\n\n\n\nEnjoy our powerful arched vacuums with a 180-degree swivel, making it easy to vacuum any car or truck. Situated on 1 acre of land, we provide ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles.\n\n\n\n\n\n\n\n\n\n\n\n\nDouble Wash & Wax - $14\nUltimate Wash - $10\n\n\n\n\n- Undercarriage Blaster\n- Undercarriage Blaster\n\n\n- Double Hot Presoak Soaking\n- Double Hot Presoak Soaking\n\n\n- High Pressure Rinse\n- High Pressure Rinse\n\n\n- Triple Foam Conditioner\n- ArmorAll Triple Foam Conditioner\n\n\n- Extreme Shine Wax with Carnauba\n- ArmorAll Clear Coat Protectant\n\n\n- RainX Complete Protectant\n- RainX Complete Protectant\n\n\n- Spot-Free Rinse\n- Spot-Free Rinse\n\n\n- Dryer\n- Dryer\n\n\n\n\n\n\n\n\n\n\nDeluxe Wash - $8\nBasic Wash - $6\n\n\n\n\n- Undercarriage Blaster\n- Double Presoak Soaking\n\n\n- Double Presoak Soaking\n- High Pressure Rinse\n\n\n- High Pressure Rinse\n- Spot-Free Rinse\n\n\n- ArmorAll Clear Coat Protectant\n\n\n\n- Dryer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmail: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445\n\n\n\nWe welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us."
-  },
-  {
-    "objectID": "carwash1.html#contact-information",
-    "href": "carwash1.html#contact-information",
-    "title": "Welcome to Our Car Wash",
-    "section": "",
-    "text": "Email: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
-  },
-  {
-    "objectID": "carwash1.html#send-a-review",
-    "href": "carwash1.html#send-a-review",
-    "title": "Welcome to Our Car Wash",
-    "section": "",
-    "text": "We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us."
   },
   {
     "objectID": "carwash2.html",
@@ -91,18 +287,74 @@
     "text": "Email: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
   },
   {
-    "objectID": "carwash2.html#send-a-review",
-    "href": "carwash2.html#send-a-review",
-    "title": "So FREMONT CAR WASH",
+    "objectID": "index.html#welcome-to-so.-fremont-car-wash-laundromat",
+    "href": "index.html#welcome-to-so.-fremont-car-wash-laundromat",
+    "title": "Main Page",
     "section": "",
-    "text": "We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\n\nName:  Email or Phone Number:  Message:"
+    "text": "Please select a service:\n\n\n  \n\n\n  \n\n\nLook into why pushing this to github washing using 16 threads and it took for ever. maybe the links are not the best way to go, there is definetly another way that is better suited for my code."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to So. FREMONT CAR WASH & LAUNDROMAT",
+    "objectID": "files/index1_24.html",
+    "href": "files/index1_24.html",
+    "title": "So FREMONT CAR WASH",
     "section": "",
-    "text": "Please select a service:\n\n\n  \n\n\n  \n\n\n\n\n\n\n Back to top"
+    "text": "Welcome to our car wash, where we offer top-notch services to keep your vehicles spotless. We have 3 self-serve bays, including a large truck bay perfect for washing RVs, trucks, trailers, and more. Our state-of-the-art automatic “Touchless” car wash uses superior chemicals for presoak, soap, wax, sealants, and a spot-free rinse. Enjoy our powerful arched vacuums with a 180-degree swivel, making it easy to vacuum any car or truck. Situated on 1 acre of land, we provide ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles.\n\n\n\n\n\n\nExperience our premium “Touchless” car wash with the Double Wash & Wax package. This includes an Undercarriage Blaster, Double Hot Presoak Soaking, High Pressure Rinse, Triple Foam Conditioner, Enhanced Carnauba Wax, Spot Free Rinse, and High Velocity Dry. Ensure your vehicle receives the ultimate protection and clean with our convenient Basic Wash.\n\n\n\n\n\n\nWe offer three self-serve bays, including a large truck bay designed for washing RVs, trucks, trailers, and more. Situated on 1 acre of land, our facility provides ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles. Our bays are equipped with the latest features to ensure a thorough and convenient cleaning experience:\n\nPresoak: Apply to the entire vehicle from bottom to top for optimal cleaning.\nSoap: High-quality soap for effective cleaning.\nFoam Brush: For scrubbing painted surfaces gently but effectively.\nGloss Wax: Apply from bottom to top for a shiny finish.\nRinse: Rinse the entire vehicle from top to bottom with high pressure.\nSpot-Free Rinse: A final rinse with spot-free water for a spotless finish.\nAir-Dry: Use the air gun to blow dry the vehicle.\n\nOur self-serve bays accept both quarters and credit cards for your convenience. Simply swipe your card or deposit quarters to start. The timer displays the cycle, and you can press the stop button to end the charges when you are done. Enjoy a thorough and easy washing experience with us.\n\n\n\n\n\nOur facility features four powerful arched vacuums designed for convenience and efficiency. Each vacuum boasts a 180-degree swivel, making it easy to reach and clean every corner of your car or truck. Whether you’re detailing the interior or just need a quick clean-up, our vacuums provide the power and flexibility you need for a spotless finish. Enjoy a hassle-free vacuuming experience with our state-of-the-art equipment.\n\n\n\n\n\n\n\nEmail: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
+  },
+  {
+    "objectID": "files/index1_24.html#double-wash-wax---14",
+    "href": "files/index1_24.html#double-wash-wax---14",
+    "title": "So FREMONT CAR WASH",
+    "section": "",
+    "text": "Experience our premium “Touchless” car wash with the Double Wash & Wax package. This includes an Undercarriage Blaster, Double Hot Presoak Soaking, High Pressure Rinse, Triple Foam Conditioner, Enhanced Carnauba Wax, Spot Free Rinse, and High Velocity Dry. Ensure your vehicle receives the ultimate protection and clean with our convenient Basic Wash."
+  },
+  {
+    "objectID": "files/index1_24.html#contact-information",
+    "href": "files/index1_24.html#contact-information",
+    "title": "So FREMONT CAR WASH",
+    "section": "",
+    "text": "Email: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
+  },
+  {
+    "objectID": "files/carwash3.html",
+    "href": "files/carwash3.html",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "Welcome to our car wash, where we offer top-notch services to keep your vehicles spotless. We have 3 self-serve bays, including a large truck bay perfect for washing RVs, trucks, trailers, and more. Our state-of-the-art automatic “Touchless” car wash uses superior chemicals for presoak, soap, wax, sealants, and a spot-free rinse. Enjoy our powerful arched vacuums with a 180-degree swivel, making it easy to vacuum any car or truck. Situated on 1 acre of land, we provide ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDouble Wash & Wax - $14\nUltimate Wash - $10\n\n\n\n\n- Undercarriage Blaster\n- Undercarriage Blaster\n\n\n- Double Hot Presoak Soaking\n- Double Hot Presoak Soaking\n\n\n- High Pressure Rinse\n- High Pressure Rinse\n\n\n- Triple Foam Conditioner\n- ArmorAll Triple Foam Conditioner\n\n\n- Extreme Shine Wax with Carnauba\n- ArmorAll Clear Coat Protectant\n\n\n- RainX Complete Protectant\n- RainX Complete Protectant\n\n\n- Spot-Free Rinse\n- Spot-Free Rinse\n\n\n- Dryer\n- Dryer\n\n\n\n\n\n\n\n\n\n\nDeluxe Wash - $8\nBasic Wash - $6\n\n\n\n\n- Undercarriage Blaster\n- Double Presoak Soaking\n\n\n- Double Presoak Soaking\n- High Pressure Rinse\n\n\n- High Pressure Rinse\n- Spot-Free Rinse\n\n\n- ArmorAll Clear Coat Protectant\n\n\n\n- Dryer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmail: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445\n\n\n\nWe welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\nName:  Email or Phone Number:  Message:"
+  },
+  {
+    "objectID": "files/carwash3.html#contact-information",
+    "href": "files/carwash3.html#contact-information",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "Email: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
+  },
+  {
+    "objectID": "files/carwash3.html#send-a-review",
+    "href": "files/carwash3.html#send-a-review",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\nName:  Email or Phone Number:  Message:"
+  },
+  {
+    "objectID": "carwash3.html",
+    "href": "carwash3.html",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "Touchless Car Wash Packages\nAutomatic Bays\nVacuums\nContact us\n\n\n\nTouchless Car Wash Packages\n\n\nAutomatic Bays\n\n\n\n\nVacuums\n\n\nContact us\n\n\n\n\n\n\n\nWelcome to our car wash, where we offer top-notch services to keep your vehicles spotless. We have 3 self-serve bays, including a large truck bay perfect for washing RVs, trucks, trailers, and more. Our state-of-the-art automatic “Touchless” car wash uses superior chemicals for presoak, soap, wax, sealants, and a spot-free rinse.\n\n\n\n\n\n\n\n\n\n\nEnjoy our powerful arched vacuums with a 180-degree swivel, making it easy to vacuum any car or truck. Situated on 1 acre of land, we provide ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmail: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445\n\n\n\nWe welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us."
+  },
+  {
+    "objectID": "carwash3.html#contact-information",
+    "href": "carwash3.html#contact-information",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "Email: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
+  },
+  {
+    "objectID": "carwash3.html#send-a-review",
+    "href": "carwash3.html#send-a-review",
+    "title": "Welcome to Our Car Wash",
+    "section": "",
+    "text": "We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us."
   },
   {
     "objectID": "laundromat2.html#contact-information",
@@ -117,5 +369,26 @@
     "title": "Welcome to Our Laundromat",
     "section": "Send a Review",
     "text": "Send a Review\nWe welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\nName:  Email or Phone Number:  Message:"
+  },
+  {
+    "objectID": "laundromat3.html#contact-information",
+    "href": "laundromat3.html#contact-information",
+    "title": "Welcome to Our Laundromat",
+    "section": "Contact Information",
+    "text": "Contact Information\nEmail: Stanthony@southfreemontcarwash.com\nPhone: (208) 530-6283\nAddress: 225 E Yellowstone Hwy, St Anthony, ID 83445"
+  },
+  {
+    "objectID": "laundromat3.html#send-a-review",
+    "href": "laundromat3.html#send-a-review",
+    "title": "Welcome to Our Laundromat",
+    "section": "Send a Review",
+    "text": "Send a Review\nWe welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\nName:  Email or Phone Number:  Message:"
+  },
+  {
+    "objectID": "carwash2.html#send-a-review",
+    "href": "carwash2.html#send-a-review",
+    "title": "So FREMONT CAR WASH",
+    "section": "",
+    "text": "We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.\n\n\nName:  Email or Phone Number:  Message:"
   }
 ]

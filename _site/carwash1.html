@@ -101,8 +101,24 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">So. FREMONT CAR WASH</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./carwash2.html"> 
+<span class="menu-text">CAR WASH # 2</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./laundromat.html"> 
 <span class="menu-text">Laundromat</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./carwash3.html"> 
+<span class="menu-text">Car Wash # 3</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./laundromat2.html"> 
+<span class="menu-text">Laundromat 2</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./laundromat3.html"> 
+<span class="menu-text">Laundromat 3</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -242,8 +258,9 @@ ul.task-list li input[type="checkbox"] {
 <h1>Vacuums</h1>
 <p><img src="Images/3vacuums.jpg" class="img-fluid"></p>
 </section>
-<section id="contact-us" class="level1">
-<h1>Contact us</h1>
+<section id="contact" class="level1">
+<h1>Contact</h1>
+<p><img src="Images/replace.jpg" class="img-fluid"></p>
 <section id="contact-information" class="level2">
 <h2 class="anchored" data-anchor-id="contact-information">Contact Information</h2>
 <p><strong>Email:</strong> <a href="mailto:Stanthony@southfreemontcarwash.com">Stanthony@southfreemontcarwash.com</a><br>
@@ -253,10 +270,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="send-a-review" class="level2">
 <h2 class="anchored" data-anchor-id="send-a-review">Send a Review</h2>
 <p>We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.</p>
-<!-- Preston from the Coputer science lab showed me https://www.w3schools.com/html/html_iframe.asp which allows to display a html inside my html. I'm using this iframe code to have a google form for user to fill out.  -->
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfl1bfwtk2KegnlSJZdwjC7ooGQ26kNcHOXBdaieN5dD8xT_A/viewform?usp=sf_link" height="700" width="100%" title="Iframe Example">
-</iframe>
-<!-- The google form only works if no media is included and email is not collected. if media is an option or email is required, the link will required users to sign into google which can cause many troubles unrelated to the car wash -->
+<!-- in the coputer science lab, i learn I can edit the action, said action was edited for the mail to or can delete that and have it open a website etc.  -->
+<form action="http://127.0.0.1:5000/submit" method="POST">
+<label for="name">Name:</label> <input type="text" id="name" name="name" required=""><br><br> <label for="email">Email or Phone Number:</label> <input type="text" id="email" name="email" required=""><br><br> <label for="message">Message:</label><br>
+<textarea id="message" name="message" rows="4" required=""></textarea>
+<br><br> <input type="submit" value="Submit">
+</form>
 </section>
 </section>
 </div>
