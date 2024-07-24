@@ -1,0 +1,209 @@
+---
+layout: cv
+title: ""
+format:
+  html:
+    css: styles.css
+---
+
+<div class="custom-width">
+
+
+
+
+
+
+# Welcome to Our Car Wash
+
+![](Images/carwash_logo.png)
+
+# Choose Service
+
+- [__Touchless Car Wash Packages__](#touchless-car-wash-packages)
+- [__Automatic Bays__](#automatic-bays)
+- [Vacuums](#vacuums)
+- [Contact us](#contact-us)
+
+
+
+<div class="flex-container">
+
+<div class="flex-item">
+
+[__Touchless Car Wash Packages__](#touchless-car-wash-packages)
+
+</div>
+
+<div class="flex-item">
+
+[__Automatic Bays__](#automatic-bays)
+
+</div>
+
+</div>
+
+
+<div class="flex-container">
+
+<div class="flex-item">
+
+[__Vacuums__](#vacuums)
+
+</div>
+
+<div class="flex-item">
+
+[__Contact us__](#contact-us)
+
+</div>
+
+</div>
+
+
+
+# About Us
+
+
+<div class="flex-container">
+
+<div class="flex-item">
+
+Welcome to our car wash, where we offer top-notch services to keep your vehicles spotless. We have 3 self-serve bays, including a large truck bay perfect for washing RVs, trucks, trailers, and more. Our state-of-the-art automatic “Touchless” car wash uses superior chemicals for presoak, soap, wax, sealants, and a spot-free rinse.
+
+</div>
+
+<div class="flex-item">
+
+![](Images/frontview_carwash.jpg)
+
+</div>
+
+</div>
+
+
+
+<div class="flex-container">
+
+<div class="flex-item">
+
+![](Images/aerial_view.jpg)
+
+</div>
+
+<div class="flex-item">
+
+Enjoy our powerful arched vacuums with a 180-degree swivel, making it easy to vacuum any car or truck. Situated on 1 acre of land, we provide ample space to wash and detail cars, trucks, RVs, ATVs, boats, and other vehicles.
+
+
+</div>
+
+</div>
+
+
+
+
+# Touchless Car Wash Packages
+
+<!-- This just has picture of each auto wash package, downfall is people with bad data can experience issues with imagines loading -->
+
+<div class="flex-container">
+
+<div class="flex-item">
+
+![](Images/1_automatic-bay_washmenu_$14.jpg)
+
+</div>
+
+<div class="flex-item">
+
+![](Images/1_automatic-bay_washmenu_$10.jpg)
+
+</div>
+
+</div>
+
+
+
+<div class="flex-container">
+
+<div class="flex-item">
+
+![](Images/1_automatic-bay_washmenu_$8.jpg)
+
+</div>
+
+<div class="flex-item">
+
+![](Images/1_automatic-bay_washmenu_$6.jpg)
+
+
+</div>
+
+</div>
+
+
+# Automatic Bays 
+
+
+
+<div class="flex-container">
+
+<div class="flex-item">
+
+![](Images/selfserve_pmt_and_controls.jpg)
+
+</div>
+
+<div class="flex-item">
+
+![](Images/1_selfserve_menu_instructions.jpg)
+
+</div>
+
+</div>
+
+
+<div class="flex-container">
+
+<div class="flex-item">
+
+![](Images/1_selfserve_3bays.jpg)
+
+</div>
+
+<div class="flex-item">
+
+![](Images/aerial_view.jpg)
+
+</div>
+
+</div>
+
+
+
+# Vacuums
+
+![](Images/3vacuums.jpg)
+
+# Contact us
+
+## Contact Information
+
+**Email:** [Stanthony@southfreemontcarwash.com](mailto:Stanthony@southfreemontcarwash.com)  
+**Phone:** (208) 530-6283  
+**Address:** 225 E Yellowstone Hwy, St Anthony, ID 83445 
+
+## Send a Review
+
+We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.
+
+<!-- Preston from the Coputer science lab showed me https://www.w3schools.com/html/html_iframe.asp which allows to display a html inside my html. I'm using this iframe code to have a google form for user to fill out.  -->
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfl1bfwtk2KegnlSJZdwjC7ooGQ26kNcHOXBdaieN5dD8xT_A/viewform?usp=sf_link" height="700" width="100%" title="Iframe Example"></iframe>
+
+<!-- The google form only works if no media is included and email is not collected. if media is an option or email is required, the link will required users to sign into google which can cause many troubles unrelated to the car wash -->
+
+
+</div>
+
+

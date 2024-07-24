@@ -1,0 +1,33 @@
+---
+title: "Welcome to So. FREMONT CAR WASH & LAUNDROMAT"
+format: 
+  html:
+    includes:
+      in_header: "styles.css"
+---
+
+
+
+# Please select a service:
+
+
+
+
+<div class="flex-container">
+
+<div class="flex-item">
+  <a href="carwash1.qmd">
+    <img src="Images/carwash_logo.png" alt="Car Wash">
+  </a>
+</div>
+
+<div class="flex-item">
+  <a href="laundromat.qmd">
+    <img src="Images/2_laundry_logo.jpeg" alt="Laundromat">
+  </a>
+</div>
+
+</div>
+
+
+

@@ -1,0 +1,95 @@
+---
+layout: cv
+title: ""
+format:  
+  html: 
+    css: styles.css
+---
+
+# Welcome to Our Laundromat
+
+![](Images/2_laundry_logo.jpeg)
+
+# About Us
+
+Location has 15 Washers & 15 dryers
+
+* one 80lb capacity washer
+* two 60lb capacity washers
+* Five 40lb capacity washers
+* Five 30lb capacity washers
+* Two 20lb capacity washers
+* one 75lb capacity dryer
+* four 30lb capacity dryers
+* ten 45lb capacity dryers
+
+![](Images/2_fivewasher_view_westside.jpg)
+
+# Use the speed queen app
+
+Our location uses the speed queen payment system. You will be able to select washers and dryers and the type of cycle through the speed queen app.
+
+Choose the link below that applies to your mobile device.
+
+[Google play store or Samsung devices,](https://play.google.com/store/apps/details?id=com.alliancelaundry.app.speedqueen) Apple Devices, Xiaomi Devices.
+
+![](Images/speedqueen_kiosk.jpg)
+
+# Wash Menu
+
+# Image Gallery
+
+<div class="scroll-container">
+  <img src="Images/2_wash_menu_40lb_1.jpg" alt="Image 1">
+  <img src="Images/2_wash_menu_40lb_2.jpg" alt="Image 2">
+  <img src="Images/2_wash_menu_40lb_3.jpg" alt="Image 3">
+  <img src="Images/2_wash_menu_40lb_4.jpg" alt="Image 4">
+  <img src="Images/2_wash_menu_40lb_5.jpg" alt="Image 5">
+  <img src="Images/2_wash_menu_40lb_6.jpg" alt="Image 6">
+  <img src="Images/2_wash_menu_40lb_7.jpg" alt="Image 7">
+  <img src="Images/2_wash_menu_40lb_speedcycle.jpg" alt="Image 8">
+  <img src="Images/2_wash_rinse_machine.jpg" alt="Image 9">
+  <img src="Images/2_wash_languages.jpg" alt="Image 10">
+</div>
+
+# Payment options
+
+You can pay using the app or simply pay with quarters at the machine.
+
+![](Images/dryer_screen_decal.jpg)
+
+# Dryer wall
+
+![](Images/2_dryers&tables.jpg)
+
+# Change machine
+
+![](Images/coin_machine.jpg)
+
+# Spacer
+
+![](Images/dryer_screen_decal.jpg)
+
+# Contact
+
+![](Images/dryer_screen_decal.jpg)
+
+## Contact Information
+
+**Email:** [Stanthony@southfreemontcarwash.com](mailto:Stanthony@southfreemontcarwash.com)  
+**Phone:** (208) 530-6283  
+**Address:** 225 E Yellowstone Hwy, St Anthony, ID 83445 
+
+## Send a Review
+
+We welcome your feedback, comments, and reviews. Please fill out the form below to get in touch with us.
+
+<form action="http://127.0.0.1:5000/submit" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email or Phone Number:</label>
+    <input type="text" id="email" name="email" required><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    <input type="submit" value="Submit">
+</form>
