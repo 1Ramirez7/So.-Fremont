@@ -6,9 +6,6 @@ format:
     css: styles.css
 ---
 
-<div class="custom-width">
-
-
 
 
 
@@ -199,7 +196,5 @@ We welcome your feedback, comments, and reviews. Please fill out the form below 
 
 <!-- The google form only works if no media is included and email is not collected. if media is an option or email is required, the link will required users to sign into google which can cause many troubles unrelated to the car wash -->
 
-
-</div>
 
 
