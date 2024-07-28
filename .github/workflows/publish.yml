@@ -20,14 +20,7 @@ jobs:
           # To install LaTeX to build PDF book 
           tinytex: true 
       
-      # Comment out the below section if you are not using python
-      - name: Install Python and Dependencies
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-          #cache: 'pip'
-      - run: pip install jupyter numpy pandas scikit-learn plotly.express seaborn matplotlib # altair altair_viewer # nbformat nbclient pyyaml
-      #- run: pip install -r requirements.txt
+      # A section here was to install python dependencies so I remove it
 
       # A section here included code if I was using R, but im not so i remove it because it took a bit to load. 
 
