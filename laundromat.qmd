@@ -6,6 +6,10 @@ format:
     css: styles.css # wash cycles table
 ---
 
+::: {.column-page}
+
+
+
 # Welcome to Our Laundromat
 
 ![](Images/2_laundry_logo.jpeg)
@@ -15,9 +19,9 @@ format:
 
 # Choose Service
 
-- [__Wash Cycle Prices__](#Wash-Cycle-Cost)
-- [__Payment options__](#Payment-options)
-- [__Dryers__](#Dryer-wall)
+- [__Wash Cycle Prices__](#wash-cycle-cost)
+- [__Payment options__](#payment-options)
+- [__Dryers__](#dryer-wall)
 - [__Contact us__](#contact-us)
 
 
@@ -194,3 +198,6 @@ We welcome your feedback, comments, and reviews. Please fill out the form below 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfl1bfwtk2KegnlSJZdwjC7ooGQ26kNcHOXBdaieN5dD8xT_A/viewform?usp=sf_link" height="700" width="100%" title="Iframe Example"></iframe>
 
 <!-- The google form only works if no media is included and email is not collected. if media is an option or email is required, the link will required users to sign into google which can cause many troubles unrelated to the car wash -->
+
+
+:::
