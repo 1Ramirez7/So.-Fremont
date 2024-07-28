@@ -1,61 +1,4 @@
-/* css styles */
-
-
-/* car wash 4 was table code/
-
-/* Remove all horizontal lines in the table */
-table {
-    border-collapse: collapse;
-  }
-  
-  table th, table td {
-    border: none;
-    padding: 8px;
-  }
-  
-  table tr {
-    border-bottom: none;
-  }
-  
-/* end css code for 4 carwash table code/
-
-
-/* this is for the index.qmd file to have side by side in pc and top and bottom in mobile */
-/* Flex container for responsive sections */
-/* added code to use in the new index.qmd file so the pictures are limited to a certain lenght and width. */
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.flex-item {
-  flex: 1 1 45%;
-  margin: 10px;
-  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
-  text-align: center; /* Center the content */
-}
-
-.flex-item img {
-  max-width: 100%;
-  height: auto;
-  display: block; /* Ensures there's no extra space below the image */
-}
-
-@media (max-width: 768px) {
-  .flex-item {
-    flex: 1 1 100%;
-  }
-}
-
-
-/* this is the end code for the side by side code for the index.qmd file */
-
-
-
-
-
-/* this code adds the bubbles imagine to the index file */
+/* This code adds the bubbles image to the index file */
 body {
   background-image: url('Images/lightbluebubbles_background.jpg');
   background-size: cover;  /* Cover the entire viewport */
@@ -65,47 +8,32 @@ body {
   min-height: 100vh;  /* Minimum height of 100% of the viewport */
 }
 
-/* end of code that adds bubbles imagine to index.qmd */
-
-
-
-/* adding wider width to qmd files */
-
 /* Custom width for the content */
 .custom-width {
-  max-width: 1400px; /* Set to 9 inches @900px */
+  max-width: 90%; /* Change to cover 90% of the viewport width */
   margin: 0 auto;
   padding: 20px; /* Optional: add padding to the content */
   box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
 
-/* end of code for adding wider width */
-
-
-
-
-/* This is for laundromat2.qmd and its for the scrollable images for the wash menu */
-
-.scroll-container {
+/* Additional styles for flex items */
+.flex-container {
   display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 10px;
+  justify-content: space-between; /* Distribute items evenly */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
-.scroll-container img {
-  flex: 0 0 auto;
-  margin-right: 10px;
-  width: 300px; /* Adjust width as necessary */
+.flex-item {
+  flex: 1 1 calc(50% - 20px); /* Take up 50% of the container width minus some margin */
+  margin: 10px; /* Add some margin around items */
 }
 
-/* end of scrollable code for wash menu */
-
-
-
-/* this is for the white table background for wash prices */
-.wash-cycles-table table {
-  background-color: white; /* Ensures only the specified table has a white background */
+.wash-cycles-table {
+  width: 100%; /* Make the table take up the full width of its container */
+  overflow-x: auto; /* Enable horizontal scrolling for tables */
 }
 
-/* end of css for white table background */
+img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+}
