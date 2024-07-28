@@ -19,10 +19,6 @@ format:
 
 # Choose Service
 
-- [__Touchless Car Wash Packages__](#touchless-car-wash-packages)
-- [__Automatic Bays__](#automatic-bays)
-- [Vacuums](#vacuums)
-- [Contact us](#contact-us)
 
 
 

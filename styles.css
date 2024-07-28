@@ -69,17 +69,6 @@ body {
 
 
 
-/* adding wider width to qmd files */
-
-/* Custom width for the content */
-.custom-width {
-  max-width: 1400px; /* Set to 9 inches @900px */
-  margin: 0 auto;
-  padding: 20px; /* Optional: add padding to the content */
-  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
-}
-
-/* end of code for adding wider width */
 
 
 
